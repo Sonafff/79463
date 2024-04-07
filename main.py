@@ -15,7 +15,7 @@ def divider(a, b):
     except IndexError as ie:
         print("IndexError:", ie)
 
-data = {10: 2, 2: 5, 123: 4, 18: 0, 7: 15, 8: 4}
+data = {6: 2, 7: 5, 18: 14, 11: 10, 17: 15, 38: 4}
 for key in data:
     res = divider(key, data[key])
     result.append(res)
